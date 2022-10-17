@@ -30,7 +30,7 @@ Steps:
 3. Project the 3D obstacles in the image with 3D bounding boxes
   - Project points from 3D to 2D (conver to homo, multiply by $P$, convert to cartesian)
   - Compute the 3D bounding box in the camera frame using $(X, Y, Z, W, H, L , R_y)$
-  - Draw the 3D bounding box in the image
+  - Project the 3D bounding box in the camera frame to the image
   - Convert the 3D bounding box to a 2D bounding box and draw it
 4. Fuse the 3D bounding boxes with the 2D bounding boxes
   - Show the LiDAR and Camera boxes on the same image
