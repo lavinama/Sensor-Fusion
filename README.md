@@ -17,7 +17,7 @@ Steps:
   - Used a YOLOv4 network
 3. Fuse the results
   - Shrink the bounding boxes
-  - Filter the outliers using $\text-\sigma$
+  - Filter the outliers using one-sigma
   - Retrieve the best distance using the average
 
 
