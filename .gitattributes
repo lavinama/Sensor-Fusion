@@ -1,0 +1,4 @@
+*/data/* filter=lfs diff=lfs merge=lfs -text
+*/output/* filter=lfs diff=lfs merge=lfs -text
+*/Yolov4/* filter=lfs diff=lfs merge=lfs -text
+*/point_clouds/* filter=lfs diff=lfs merge=lfs -text
