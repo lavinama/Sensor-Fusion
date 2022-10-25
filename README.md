@@ -37,3 +37,13 @@ Steps:
   - Compute the IOU (Intersection Over Union) metrics for each box
   - Use the Hungarian Algorithm to output the matches given the IOU matrix
 5. Create an ultimate fused objects
+
+## Downlaoding the Dataset
+
+Download the videos:
+* [video_1](https://drive.google.com/drive/folders/1pjYqlStUbtcI46mKhakv0aAyZWxgNnmT)
+* [video_2](https://drive.google.com/drive/folders/1Fg5lW9eC61Fyk-y62EDHmIr4ezBHEfQk?usp=sharing)
+* [video_3](https://drive.google.com/drive/folders/1s4n_ukH7Ujp1V6u8GaYUZrLhNNDzZlmO?usp=sharing)
+* [video_4](https://drive.google.com/drive/folders/1MrRHWnuO2uZnmXCC38t3vq2d1lD4x2HJ?usp=sharing)
+
+Store them under `data/videos/*`
