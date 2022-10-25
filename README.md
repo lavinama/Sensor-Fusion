@@ -2,7 +2,8 @@
 Fusing data from a LiDAR and a Camera
 
 
-## Early Fusion: First we fuse, then we detect
+
+## Early Fusion: First we fuse, then we detect (`Early_Fusion.ipynb`)
 Steps:
 1. Project the Point Clouds (3D) to the Image (2D):
   - Convert the points from the LiDAR frame to the Image frame.
@@ -21,7 +22,7 @@ Steps:
   - Retrieve the best distance using the average
 
 
-## Late Fusion: First we detect, then we fuse
+## Late Fusion: First we detect, then we fuse (`Late_Fusion.ipynb`)
 Steps:
 1. Detect obstacles in 2D with the camera
   - Used a YOLOv4 network
@@ -59,3 +60,9 @@ Steps:
 
 **Output**
 1. Create a folder in the main directory called `output/*`. Here all the fused videos will be stored.
+
+## Extra useful files
+* `point_clouds/*`: directory containing all the point clouds
+* `bin_to_pcd.py`: if the LiDAR point clouds are in `bin` format, this Python script converts them to `pcd` format.
+* `calc_rotation_matrix.ipynb`: calculates the rotation matrix given the angles of rotation
+
