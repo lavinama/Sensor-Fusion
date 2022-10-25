@@ -1,7 +1,7 @@
 # Sensor-Fusion
-Fusing data from a LiDAR and a Camera
+Fusing data from a LiDAR and a Camera. This is an example of the output of the early fusion algorithm:
 
-
+https://user-images.githubusercontent.com/70475094/197755891-984b8950-6943-49a9-9738-f308cc33b35d.mp4
 
 ## Early Fusion: First we fuse, then we detect (`Early_Fusion.ipynb`)
 Steps:
