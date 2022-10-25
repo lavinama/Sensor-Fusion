@@ -39,11 +39,23 @@ Steps:
 5. Create an ultimate fused objects
 
 ## Downlaoding the Dataset
+**Videos:**
+1. Download the videos using the following links:
+  * [video_1](https://drive.google.com/drive/folders/1pjYqlStUbtcI46mKhakv0aAyZWxgNnmT)
+  * [video_2](https://drive.google.com/drive/folders/1Fg5lW9eC61Fyk-y62EDHmIr4ezBHEfQk?usp=sharing)
+  * [video_3](https://drive.google.com/drive/folders/1s4n_ukH7Ujp1V6u8GaYUZrLhNNDzZlmO?usp=sharing)
+  * [video_4](https://drive.google.com/drive/folders/1MrRHWnuO2uZnmXCC38t3vq2d1lD4x2HJ?usp=sharing)
+2. Store them under `data/videos/*`
 
-Download the videos:
-* [video_1](https://drive.google.com/drive/folders/1pjYqlStUbtcI46mKhakv0aAyZWxgNnmT)
-* [video_2](https://drive.google.com/drive/folders/1Fg5lW9eC61Fyk-y62EDHmIr4ezBHEfQk?usp=sharing)
-* [video_3](https://drive.google.com/drive/folders/1s4n_ukH7Ujp1V6u8GaYUZrLhNNDzZlmO?usp=sharing)
-* [video_4](https://drive.google.com/drive/folders/1MrRHWnuO2uZnmXCC38t3vq2d1lD4x2HJ?usp=sharing)
+**Yolov4:**
+1. Create a folder in the main directory called `Yolov4/*`
+2. Download the following files:
+  * [classes.txt](https://drive.google.com/file/d/10O9H8syamaFgrBVekxOxH7RBwiTKYBFM/view?usp=drive_web)
+  * [coco.names](https://drive.google.com/file/d/1pj4tuL9xockS0LO90zyy21xPKWTvx-xF/view?usp=drive_web)
+  * [yolov4-tiny.cfg](https://drive.google.com/file/d/1B0mTKm_ugLUBUeabwvMpdY2lhz4XYWjZ/view?usp=drive_web)
+  * [yolov4.cfg](https://drive.google.com/file/d/1KXySj9KOSJXewowAbBp5mMnf14A0BPvk/view?usp=drive_web)
+  * [yolov4.weights](https://drive.google.com/file/d/1G7NrrJnOZU6TcKONc0B5ZuGvxbhoVsyM/view?usp=drive_web)
+3. Store these files in the directory `Yolov4/*`
 
-Store them under `data/videos/*`
+**Output**
+1. Create a folder in the main directory called `output/*`. Here all the fused videos will be stored.
